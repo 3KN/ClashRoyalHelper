@@ -125,6 +125,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
                                     intent.putParcelableArrayListExtra("Array of cards",usedcards);
                                     intent.putExtra("Avarage elixir",elixirbut.getText().toString());
                                     startActivity(intent);
+                                    finish();
 
 
 
@@ -281,6 +282,9 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
         RoyalGiant = new Card("RoyalGiant","royalgiant","royalgiants",4,8,new ArrayList<Card>(Arrays.asList(SkeletonaArmy,Ballom)),new ArrayList<Card>());
         Skelet = new Card("Skeleton","skelet","skelets",1,1,new ArrayList<Card>(Arrays.asList(Minions,BabyDragon,Witch,Wizard)),new ArrayList<Card>());
         SmallMinions = new Card("SmallMinions","smallminion","smallminions",1,3,new ArrayList<Card>(Arrays.asList(BabyDragon,Musketeer,Witch,Wizard,Rage)),new ArrayList<Card>());
+
+
+
 
         cards.put(0, Pekka);
         cards.put(1, Golem);

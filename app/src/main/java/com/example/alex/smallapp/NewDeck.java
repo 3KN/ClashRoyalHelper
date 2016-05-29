@@ -102,6 +102,7 @@ public class NewDeck extends AppCompatActivity implements View.OnClickListener {
         if(v.getId()==R.id.makeanother_btn){
             Intent intent = new Intent(this,MainActivity.class);
             startActivity(intent);
+            finish();
         }
         else if(v.getId()==R.id.savedeck_btn)
         {
