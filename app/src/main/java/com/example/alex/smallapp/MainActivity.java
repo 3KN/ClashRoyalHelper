@@ -235,6 +235,13 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
         Card SkeletonaArmy;//=new Card("Skeleton Army", "skeletonarmy", "skeletonarmys", 3,4);
         Card Valkyrie;// = new Card("Valkyrie", "valkyrie", "valkyries", 2, 4);
         Card Golem;// = new Card("Golem", "golem", "golems", 3,8);
+        Card Prince;
+        Card Rage;
+        Card Rocket;
+        Card RoyalGiant;
+        Card Skelet;
+        Card SmallMinions;
+
 /*
         Ballom.setall(new ArrayList<Card>(Arrays.asList(Giant,Valkyrie,Golem)),null);
         Pekka.setall(new ArrayList<Card>(Arrays.asList(Giant,BabyDragon,Golem)),null);
@@ -254,22 +261,26 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
 */
 
         Ballom = new Card("Ballon", "ballon", "ballons", 3,5);
-        Valkyrie = new Card("Valkyrie", "valkyrie", "valkyries", 2, 4,new ArrayList<Card>(),new ArrayList<Card>());
+        Valkyrie = new Card("Valkyrie", "valkyrie", "valkyries", 2, 4,new ArrayList<Card>(Arrays.asList(Ballom)),new ArrayList<Card>());
         Giant = new Card("Giant", "giant", "giants", 2,5,new ArrayList<Card>(Arrays.asList(Valkyrie)),new ArrayList<Card>());
         Golem= new Card("Golem", "golem", "golems", 3,8,new ArrayList<Card>(Arrays.asList(Ballom,Valkyrie)),new ArrayList<Card>());
         Pekka= new Card("Pekka", "pekkabig", "pekkabigs", 3,8, new ArrayList<Card>(Arrays.asList(Ballom,Golem)),new ArrayList<Card>());
         Zap = new Card("Zap", "zap", "zaps", 1,2,new ArrayList<Card>(Arrays.asList(Giant,Valkyrie)),new ArrayList<Card>());
-        Wizard = new Card("Wizard","wizard","wizards",2,5,new ArrayList<Card>(Arrays.asList(Giant,Valkyrie)),new ArrayList<Card>());
+        Wizard = new Card("Wizard","wizard","wizards",2,5,new ArrayList<Card>(Arrays.asList(Pekka,Valkyrie)),new ArrayList<Card>());
         MiniPekka = new Card("Mini PEKKA","minipekka","minipekkas",2,4,new ArrayList<Card>(Arrays.asList(Giant,Valkyrie)),new ArrayList<Card>());
-        Witch = new Card("Witch","witch","witchs",3,5,new ArrayList<Card>(Arrays.asList(Giant,Valkyrie)),new ArrayList<Card>());
-        HogRider = new Card("Hog Rider","hogrider","hogriders",2,4,new ArrayList<Card>(Arrays.asList(Giant,Valkyrie)),new ArrayList<Card>());
-        GiantSkeleton = new Card("Giant Skeleton","giantskeleton","giantskeletons",3,6,new ArrayList<Card>(Arrays.asList(Giant,Valkyrie)),new ArrayList<Card>());
-        BabyDragon =new Card("Baby Dragon", "babydragon", "babydragons", 3,4,new ArrayList<Card>(Arrays.asList(Giant,Valkyrie)),new ArrayList<Card>());
-        Musketeer = new Card("Musketeer", "musketeer", "musketeers", 2, 5,new ArrayList<Card>(Arrays.asList(Giant,Valkyrie)),new ArrayList<Card>());SkeletonaArmy = new Card("Skeleton Army", "skeletonarmy", "skeletonarmys", 3,4,new ArrayList<Card>(Arrays.asList(Giant,Valkyrie)),new ArrayList<Card>());
-
-
-        Minions = new Card("Minions", "minions", "minionss", 1,5,new ArrayList<Card>(Arrays.asList(HogRider,BabyDragon)),new ArrayList<Card>());
-
+        Witch = new Card("Witch","witch","witchs",3,5,new ArrayList<Card>(Arrays.asList(Pekka,MiniPekka)),new ArrayList<Card>());
+        HogRider = new Card("Hog Rider","hogrider","hogriders",2,4,new ArrayList<Card>(Arrays.asList(Zap,Wizard)),new ArrayList<Card>());
+        GiantSkeleton = new Card("Giant Skeleton","giantskeleton","giantskeletons",3,6,new ArrayList<Card>(Arrays.asList(HogRider,Witch)),new ArrayList<Card>());
+        BabyDragon =new Card("Baby Dragon", "babydragon", "babydragons", 3,4,new ArrayList<Card>(Arrays.asList(Witch,HogRider)),new ArrayList<Card>());
+        Musketeer = new Card("Musketeer", "musketeer", "musketeers", 2, 5,new ArrayList<Card>(Arrays.asList(Zap,BabyDragon)),new ArrayList<Card>());
+        SkeletonaArmy = new Card("Skeleton Army", "skeletonarmy", "skeletonarmys", 3,4,new ArrayList<Card>(Arrays.asList(Golem,Musketeer)),new ArrayList<Card>());
+        Minions = new Card("Minions", "minions", "minionss", 1,5,new ArrayList<Card>(Arrays.asList(HogRider,BabyDragon,SkeletonaArmy)),new ArrayList<Card>());
+        Prince = new Card("Prince","prince","princes",3,5,new ArrayList<Card>(Arrays.asList(Minions,BabyDragon,SkeletonaArmy)),new ArrayList<Card>());
+        Rage = new Card("Rage","rage","rages",2,3,new ArrayList<Card>(Arrays.asList(Prince,Musketeer)),new ArrayList<Card>());
+        Rocket =new Card("Rocket","rocket","rockets",2,6,new ArrayList<Card>(Arrays.asList(Rage,BabyDragon)),new ArrayList<Card>());
+        RoyalGiant = new Card("RoyalGiant","royalgiant","royalgiants",4,8,new ArrayList<Card>(Arrays.asList(SkeletonaArmy,Ballom)),new ArrayList<Card>());
+        Skelet = new Card("Skeleton","skelet","skelets",1,1,new ArrayList<Card>(Arrays.asList(Minions,BabyDragon,Witch,Wizard)),new ArrayList<Card>());
+        SmallMinions = new Card("SmallMinions","smallminion","smallminions",1,3,new ArrayList<Card>(Arrays.asList(BabyDragon,Musketeer,Witch,Wizard,Rage)),new ArrayList<Card>());
 
         cards.put(0, Pekka);
         cards.put(1, Golem);
@@ -286,6 +297,12 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
         cards.put(12, Musketeer);
         cards.put(13,SkeletonaArmy );
         cards.put(14, Valkyrie);
+        cards.put(15, Prince);
+        cards.put(16, Rage);
+        cards.put(17, Rocket);
+        cards.put(18, RoyalGiant);
+        cards.put(19, Skelet);
+        cards.put(20, SmallMinions);
 
 
     }
