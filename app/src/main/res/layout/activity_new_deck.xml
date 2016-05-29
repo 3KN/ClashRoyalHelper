@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.alex.smallapp.NewDeck"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:id="@+id/linearLayout4">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:drawableRight="@drawable/elixirsmall1"
+            android:background="@drawable/border12"
+            android:textColor="#b983ed"
+            android:textStyle="bold"
+            android:id="@+id/newaverage"
+            android:text="Average Elixir cost : 0 "
+            android:textAlignment="gravity"
+            android:gravity="fill_vertical|right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="15dp"
+        android:paddingLeft="5dp"
+        android:layout_above="@+id/linearLayout5">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linearLayout4"
+        android:id="@+id/linearLayout5">
+
+        <ImageView
+            android:src="@drawable/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image1"
+            android:layout_weight="1"
+            android:layout_marginRight="1dp" />
+
+        <ImageView
+            android:src="@drawable/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image2"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
+
+        <ImageView
+            android:src="@drawable/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image3"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
+
+        <ImageView
+            android:src="@drawable/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image4"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout6"
+        android:layout_below="@+id/linearLayout5">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/empty"
+            android:layout_weight="1"
+            android:id="@+id/image5"
+            android:layout_marginRight="1dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/empty"
+            android:layout_weight="1"
+            android:id="@+id/image6"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/empty"
+            android:layout_weight="1"
+            android:id="@+id/image7"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/empty"
+            android:layout_weight="1"
+            android:id="@+id/image8"
+            android:layout_marginLeft="1dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayout7">
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="Save Deck"
+            android:id="@+id/savedeck_btn"
+            android:layout_weight="1"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/rollborder1"
+            android:drawableRight="@drawable/elixirsmall1"
+            android:textStyle="bold"
+            android:layout_height="45dp"
+
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="Make another"
+            android:id="@+id/makeanother_btn"
+            android:layout_weight="1"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="0dp"
+            android:drawableRight="@drawable/elixirsmall1"
+            android:background="@drawable/rollborder1"
+            android:textStyle="bold"
+            android:layout_height="45dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout6"
+        android:layout_alignRight="@+id/linearLayout7"
+        android:layout_alignEnd="@+id/linearLayout7"
+        android:layout_above="@+id/linearLayout7">
+
+        <TextView
+            android:layout_width="136dp"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="The strongest    enemies"
+            android:id="@+id/textView2"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/empty"
+            android:layout_weight="1"
+            android:id="@+id/opponent1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/empty"
+            android:layout_weight="1"
+            android:id="@+id/opponent2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/empty"
+            android:layout_weight="1"
+            android:id="@+id/opponent3" />
+    </LinearLayout>
+
+</RelativeLayout>
