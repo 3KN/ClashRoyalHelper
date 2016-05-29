@@ -34,5 +34,17 @@ public class First extends AppCompatActivity implements View.OnClickListener {
             intent = new Intent(this,MainActivity.class);
             startActivity(intent);
         }
+        if (v.getId()==R.id.arena_btn){
+            intent = new Intent(this,arenas.class);
+            startActivity(intent);
+        }
+        if (v.getId()==R.id.strategy_btn){
+            intent = new Intent(this,strategies.class);
+            startActivity(intent);
+        }
+        if (v.getId()==R.id.wiki_btn){
+            intent = new Intent(this,wikiScroll.class);
+            startActivity(intent);
+        }
     }
 }

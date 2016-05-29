@@ -15,32 +15,25 @@
         android:layout_width="200dp"
         android:text="Make a deck"
         android:id="@+id/picker_btn"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
-        android:layout_marginBottom="30dp"
         android:background="@drawable/border12"
         android:textColor="#b983ed"
         android:textStyle="bold"
         android:layout_height="45dp"
-        />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="200dp"
 
         android:text="Arenas"
         android:id="@+id/arena_btn"
-        android:layout_below="@+id/picker_btn"
-        android:layout_alignLeft="@+id/picker_btn"
-        android:layout_alignStart="@+id/picker_btn"
-        android:layout_alignRight="@+id/strategy_btn"
-        android:layout_alignEnd="@+id/strategy_btn"
-        android:layout_marginBottom="30dp"
         android:background="@drawable/border12"
         android:textColor="#b983ed"
         android:textStyle="bold"
         android:layout_height="45dp"
-        />
+        android:layout_below="@+id/picker_btn"
+        android:layout_alignLeft="@+id/picker_btn"
+        android:layout_alignStart="@+id/picker_btn" />
 
     <Button
         android:layout_width="200dp"
@@ -57,6 +50,22 @@
         android:textStyle="bold"
         android:layout_height="45dp"
         />
+
+    <Button
+        android:layout_width="200dp"
+
+        android:text="Royal Wiki"
+        android:id="@+id/wiki_btn"
+        android:layout_below="@+id/strategy_btn"
+        android:layout_alignLeft="@+id/picker_btn"
+        android:layout_alignStart="@+id/picker_btn"
+        android:layout_alignRight="@+id/picker_btn"
+        android:layout_alignEnd="@+id/picker_btn"
+        android:background="@drawable/border12"
+        android:textColor="#b983ed"
+        android:textStyle="bold"
+        android:layout_height="45dp"
+        android:onClick="onClick" />
 
     <ImageView
         android:layout_width="wrap_content"

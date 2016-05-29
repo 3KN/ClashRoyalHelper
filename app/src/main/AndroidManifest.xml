@@ -8,9 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".NewDeck" />
         <activity android:name=".First">
             <intent-filter>
@@ -19,6 +17,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".wikiScroll"
+            android:label="@string/title_activity_wiki_scroll"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".strategies"
+            android:label="@string/title_activity_strategies"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".arenas"
+            android:label="@string/title_activity_arenas"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
