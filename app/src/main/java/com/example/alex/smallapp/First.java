@@ -34,6 +34,10 @@ public class First extends AppCompatActivity implements View.OnClickListener {
             intent = new Intent(this,MainActivity.class);
             startActivity(intent);
         }
+        if(v.getId()==R.id.strategy_btn){
+            intent = new Intent(this,Strategy.class);
+            startActivity(intent);
+        }
 
 
     }

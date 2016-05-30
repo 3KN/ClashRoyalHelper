@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">Smallapp</string>
+    <string name="title_activity_strategy">Strategy</string>
+    <string name="large_text">
+        "1. Stick with your deck.\n\n"
+
+        "Find a good deck and stick with it. Don’t keep changing cards around any time you loose. If you’re just starting out I’d suggest this Arena 1 deck and this deck for Arena 2 and above. You’re not going to do great until you know the deck you are playing pretty well. It takes a while to figure out which card to play to counter the various troops your opponent is throwing your way.\n\n"
+
+        "2. Spent your gems wisely.\n\n"
+
+        "Gems are hard to get in Clash Royale, so don’t waste them on random chests. You can get detailed information on how to spend your gems the smart way here, but to sum it up. Buy the first 4 common cards, first 2 rare and epic cards from the game shop only if you don’t have it already. Spend your gems on buying gold.\n\n"
+
+        "3. Learn about the cards.\n\n"
+
+        "There is not a tons of stuff you need to know, but at least learn which cards are tanks, which are flying, which can target flying units and which will do splash damage. Just knowing this you can figure out how to counter most troops your opponent is sending your way. If you want a lot of information on how to counter the various troops this post on Reddit is really useful.\n\n"
+
+        "4. Avoid making mistakes.\n\n"
+
+        "Most games are lost by the player that does the most stupid stuff. “Oops…I missed with my Fireball and now the Barbarians are crushing my tower.” There are tons of mistakes you can make, but just use your brain when you’re playing, don’t rush it and take a break if you’re pissed off.\n\n"
+
+        "5. Wait and be patient.\n\n"
+
+        "Don’t make the first move, wait and see what your opponent is doing. Just placing all your troops down and hoping for the best rarely works. The most common result of doing that is that your opponent will kill all your troops and then approach your towers with a force you can’t handle. Instead always be patient, the game is at least 3 minutes long so there is plenty of time. Even if your opponent has destroyed one of your towers being patient is probably your best option. The only time you should rush is if time is running out and you are far behind in the game.\n\n"
+
+        "6. Pay attention to elixir.\n\n"
+
+        "Don’t spend all your elixir at one time unless you really have to. It really sucks running out of elixir and having to watch your opponent’s troops slowing hacking away at your tower. Especially during the first 2 minutes you have to be careful with this. During this time it takes a really long time to go from 0 to 10 elixir, so there is lots of time for your opponent to take advantage of your low elixir.If you want to be the one to take advantage of your opponent’s elixir mistakes, I suggest you learn more about how to get an elixir advantage.\n\n"
+
+        "7. Get the Free chests.\n\n"
+
+        "Play a little bit every day so you maximise the free chests you get. Doing this you will be able to level pretty fast without spending any money of the game. You get free chests and crown chests every day. You should also be able to open 5-6 of the timed chests daily as well.\n\n"
+
+        "8. Join a Clan.\n\n"
+
+        "It’s a great idea to join a clan as soon as possible. The main reason is so that you can donate cards and get gold and experience, and also because your clan will donate cards to you. Doing this every single day makes you level up a lot faster than you would otherwise. If you’re lucky you land in a clan with some cool people as well, if not just find a new one. If you’re really good you can join the best clan in the game.\n\n"
+
+        "9. Play cards by dragging.\n\n"
+
+        "Don’t tap where you want your troops to land, it’s much easier to drag the cards to the location on the map you want them to be played. The card is not played until you release your finger, and just holding it there for a while let you see exactly where it will land and what range the stationary cards will have. You can also play two cards at the same time doing this.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
 </resources>
