@@ -34,5 +34,7 @@ public class First extends AppCompatActivity implements View.OnClickListener {
             intent = new Intent(this,MainActivity.class);
             startActivity(intent);
         }
+
+
     }
 }
