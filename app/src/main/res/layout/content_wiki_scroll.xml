@@ -8,8 +8,409 @@
     tools:context="com.example.alex.smallapp.wikiScroll"
     tools:showIn="@layout/activity_wiki_scroll">
 
-    <android.support.v7.widget.AppCompatAutoCompleteTextView
+    <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/large_text"/>
+        android:background="@drawable/background">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/imageBut0"
+                android:layout_column="0"
+                android:layout_width="95dp"
+                android:layout_height="120dp"
+                android:background="@drawable/babydragon" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="120dp"
+                android:id="@+id/imageBut1"
+                android:layout_column="1"
+                android:background="@drawable/ballon"/>
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="120dp"
+                android:id="@+id/imageBut2"
+                android:layout_column="2"
+                android:background="@drawable/pekkabig"/>
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="120dp"
+                android:id="@+id/imageBut3"
+                android:layout_column="3"
+                android:background="@drawable/minions"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageBut4"
+                android:layout_column="0"
+                android:layout_width="95dp"
+                android:layout_height="120dp"
+                android:background="@drawable/minipekka"/>
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="120dp"
+                android:id="@+id/imageBut5"
+                android:layout_column="1" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="120dp"
+                android:id="@+id/imageBut6"
+                android:layout_column="2" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="120dp"
+                android:id="@+id/imageBut7"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageBut8"
+                android:layout_column="0"
+                android:layout_width="95dp"
+                android:layout_height="120dp" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="120dp"
+                android:id="@+id/imageBut9"
+                android:layout_column="1" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="120dp"
+                android:id="@+id/imageBut10"
+                android:layout_column="2" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="120dp"
+                android:id="@+id/imageBut11"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageBut12"
+                android:layout_column="0"
+                android:layout_width="95dp"
+                android:layout_height="150dp" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut13"
+                android:layout_column="1" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut14"
+                android:layout_column="2" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut15"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageBut16"
+                android:layout_column="0"
+                android:layout_width="95dp"
+                android:layout_height="150dp" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut17"
+                android:layout_column="1" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut18"
+                android:layout_column="2" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut19"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageBut20"
+                android:layout_column="0"
+                android:layout_width="95dp"
+                android:layout_height="150dp" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut21"
+                android:layout_column="1" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut22"
+                android:layout_column="2" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut23"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageBut24"
+                android:layout_column="0"
+                android:layout_width="95dp"
+                android:layout_height="150dp" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut25"
+                android:layout_column="1" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut26"
+                android:layout_column="2" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut27"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageBut28"
+                android:layout_column="0"
+                android:layout_width="95dp"
+                android:layout_height="150dp" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut29"
+                android:layout_column="1" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut30"
+                android:layout_column="2" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut31"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageBut32"
+                android:layout_column="0"
+                android:layout_width="95dp"
+                android:layout_height="150dp" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut33"
+                android:layout_column="1" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut34"
+                android:layout_column="2" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut35"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageBut36"
+                android:layout_column="0"
+                android:layout_width="95dp"
+                android:layout_height="150dp" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut37"
+                android:layout_column="1" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut38"
+                android:layout_column="2" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut39"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageBut40"
+                android:layout_column="0"
+                android:layout_width="95dp"
+                android:layout_height="150dp" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut41"
+                android:layout_column="1" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut42"
+                android:layout_column="2" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut43"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageBut44"
+                android:layout_column="0"
+                android:layout_width="95dp"
+                android:layout_height="150dp" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut45"
+                android:layout_column="1" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut46"
+                android:layout_column="2" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut47"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageBut48"
+                android:layout_column="0"
+                android:layout_width="95dp"
+                android:layout_height="150dp" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut49"
+                android:layout_column="1" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut50"
+                android:layout_column="2" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut51"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageBut52"
+                android:layout_column="0"
+                android:layout_width="95dp"
+                android:layout_height="150dp" />
+
+            <ImageButton
+                android:layout_width="95dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageBut53"
+                android:layout_column="1" />
+
+        </TableRow>
+    </TableLayout>
 </android.support.v4.widget.NestedScrollView>
